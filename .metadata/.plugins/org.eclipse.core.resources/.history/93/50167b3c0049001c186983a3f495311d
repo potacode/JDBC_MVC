@@ -1,0 +1,8 @@
+<%@page import="memberinfoex.MemberInfoDAO" %>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<%
+		// get 방식으로 넘어온 no 값을 변수에 저장
+		int no = Integer.parseInt(request.getParameter("no"));
+%>
